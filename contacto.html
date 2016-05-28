@@ -47,25 +47,17 @@
 					<div class="container">
 						<article id="main" class="special">
 							<header>
-								<h2><a href="#">Cuál es la imagen digital que deseas?, cuéntanos.</a></h2>
+								<h2><a href="#">¿Cuál es la imagen digital que deseas?, cuéntanos.</a></h2>
 							</header>
 							
-							<form name="contactform" method="post" action="send_controller.php"> 
+							<form name="contactform" method="post" action="email_controller.php"> 
 								<table width="450px"><!---Este tamaño en px es personalizable -->
 									<tr>
 										<td valign="top">
-											<label for="first_name">Nombre</label>
+											<label for="nombre">Nombre</label>
 										</td>
 										<td valign="top">
-											<input  type="text" name="first_name" maxlength="50" size="30">
-										</td>
-									</tr>
-									<tr>
-										<td valign="top">
-											<label for="last_name">Apellido</label>
-										</td>
-										<td valign="top">
-											<input  type="text" name="last_name" maxlength="50" size="30">
+											<input  type="text" name="nombre" maxlength="50" size="30">
 										</td>
 									</tr>
 									<tr>
@@ -81,15 +73,15 @@
 											<label for="telephone">Teléfono:</label>
 										</td>
 										<td valign="top">
-											<input  type="text" name="telephone" maxlength="30" size="30">
+											<input  type="text" name="celular" maxlength="30" size="30">
 										</td>
 									</tr>
 									<tr>
 										<td valign="top">
-											<label for="message">Cuéntenos *</label>
+											<label for="mensaje">Cuéntenos *</label>
 										</td>
 											<td valign="top">
-											<textarea  name="message" maxlength="1000" cols="25" rows="6"></textarea>
+											<textarea  name="mensaje" maxlength="1000" cols="25" rows="6"></textarea>
 										</td>
 									</tr>
 									<tr>
