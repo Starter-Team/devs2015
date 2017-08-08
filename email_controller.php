@@ -14,13 +14,12 @@ if(!isset($_POST['email']) ||
 echo "
 	<html>
 		<head>
-			<title>DEVS</title>
-			<link href='css/bootstrap.css' rel='stylesheet'>
+			<title>STARTER</title>
 		</head>
 		<body>
 			<div style='margin:40vh;text-align:center'>
 				<p>Ocurrió un error, por favor revisa los campos</p><br>
-				<a href='form.html'>
+				<a href='/'>
 					<button type='submit' class='btn btn-default center-block'>Regresar</button>
 				</a>
 			</div>
@@ -32,13 +31,13 @@ if($_POST['email'] == null || $_POST['nombre'] == null || $_POST['celular'] == n
 	echo "
 	<html>
 		<head>
-			<title>DEVS</title>
+			<title>STARTER</title>
 			<link href='css/bootstrap.css' rel='stylesheet'>
 		</head>
 		<body>
 			<div style='margin:40vh;text-align:center'>
 				<p>Por favor Rellena los campos obligatorios (*)</p><br>
-				<a href='form.html'>
+				<a href='/'>
 					<button type='submit' class='btn btn-default center-block'>Regresar</button>
 				</a>
 			</div>
@@ -63,14 +62,14 @@ $headers = 'From: '.$email_from."\r\n".
 echo "
 <html>
 <head>
-	<title>DEVS</title>
+	<title>STARTER</title>
 	<link href='css/bootstrap.css' rel='stylesheet'>
 </head>
 <body>
 	<div style='margin:40vh;text-align:center'>
 		<p>¡Gracias por contactarnos!</p><br>
 		<p>¡Un asesor se comunicará contigo a la brevedad!</><br>
-		<a href='index.html'>
+		<a href='/'>
 			<button type='submit' class='btn btn-default center-block'>Regresar</button>
 		</a>
 	</div>
